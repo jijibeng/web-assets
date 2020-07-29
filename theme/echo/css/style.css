@@ -67,9 +67,11 @@ code {
 pre {
     padding: 8px;
     overflow: auto;
-    max-height: 400px;
+    /*max-height: 400px;*/
     margin: 1em 0px;
     border-radius: 3px;
+    background: #f3f3f3 url(../img/pre-bg.png) repeat top left;
+    background-size:150%;
 }
 
 pre code {
